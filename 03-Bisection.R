@@ -42,9 +42,3 @@ bisection <- function (f, a, b, num = 10, eps = 0.001)
 }
 
 bisection(f, -2, 5)
-
-
-
-
-
-
