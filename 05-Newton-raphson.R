@@ -20,14 +20,3 @@ newton <- function(f, x0, tol, n){
 } 
 
 newton(f, 0.1, 1e-4, 100)
-
-
-
-
-
-
-
-
-
-
-
