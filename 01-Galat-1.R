@@ -26,7 +26,7 @@ ddf = order_func(f, 2)
 xt= c(3.8868036256589003, 6.3722735558900947)
 
 #nilai pendekatan (xa) dari turunan pertama dan kedua
-xa<-c(round(df(0.9), digits=6), round(ddf(0.9), digits=6))
+xa<-c(round(df(0.9), digits=6), round(ddf(0.9), digits=6)); xa
 
 error_abs(xt,xa)
 error_relatif_abs(xt,xa)
