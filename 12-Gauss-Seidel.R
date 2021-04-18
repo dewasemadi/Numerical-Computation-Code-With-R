@@ -3,8 +3,8 @@ x = c(1,2,2) # tebakan awal
 epsilon  = 1e-6
 max_iter = 100
 n = 3 #ukuran matriks n*n
-a = matrix(c(4,-1,1,4,-8,1,-2,1,5), nrow = n, ncol = n, byrow = T); a
-b = matrix(c(7,-21,15)); b
+a = matrix(c(3,1,-1,2,4,1,1,-1,4), nrow = n, ncol = n, byrow = T); a
+b = matrix(c(3,7,4)); b
 m = cbind(a,b); m #gabung matriks a & b
 
 # cek kondisi kekonvergenan solusi dengan syarat cukup dominan secara diagonal
